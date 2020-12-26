@@ -663,6 +663,32 @@ section {
   text-decoration: none;
 }
 
+.about .pro{
+  text-align: center;
+}
+
+ul.social li{
+    transform: translate(50px, 100px);
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+ul.social li a{ 
+  padding: 0 2px 5px 0;
+  margin: 0;
+  display: inline;
+  border: none !important;
+  clear: none;
+  line-height: 100%;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
